@@ -20,6 +20,6 @@ final class Version
 {
     public static function needsNodeTag(): bool
     {
-        return \Twig\Environment::VERSION_ID < 301200;
+        return \Twig\Environment::VERSION_ID < 31200;
     }
 }
